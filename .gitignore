@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+
+# Regenerable outputs
+results/
+
+# Raw images
+*.tif
+*.tiff
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you refer to this software, please cite it as below."
+title: "FURCA: a Python toolkit for the study of planar branching structures"
+type: software
+authors:
+  - family-names: Rodriguez Rizk
+    given-names: Gonzalo
+    affiliation: 'Museo Argentino de Ciencias Naturales "Bernardino Rivadavia", Buenos Aires, Argentina'
+version: 0.1.0
+date-released: 2026-10-31
+license: CC-BY-NC-ND-4.0
+url: "https://github.com/gzrizk/furca"
+repository-code: "https://github.com/gzrizk/furca"
+keywords:
+  - planar branching structures
+  - venation
+  - tree edit distance
+  - morphometrics
+  - palaeobotany
