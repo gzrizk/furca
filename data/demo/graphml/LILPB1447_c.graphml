@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d12" for="edge" attr.name="child_index" attr.type="long" />
+  <key id="d11" for="edge" attr.name="length_mm" attr.type="double" />
+  <key id="d10" for="edge" attr.name="curve_points" attr.type="string" />
+  <key id="d9" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d8" for="node" attr.name="node_role" attr.type="string" />
+  <key id="d7" for="node" attr.name="y" attr.type="float" />
+  <key id="d6" for="node" attr.name="x" attr.type="float" />
+  <key id="d5" for="graph" attr.name="has_anomalies" attr.type="boolean" />
+  <key id="d4" for="graph" attr.name="has_xveins" attr.type="boolean" />
+  <key id="d3" for="graph" attr.name="graph_type" attr.type="string" />
+  <key id="d2" for="graph" attr.name="edge_length_method" attr.type="string" />
+  <key id="d1" for="graph" attr.name="filename" attr.type="string" />
+  <key id="d0" for="graph" attr.name="mm_per_pixel" attr.type="double" />
+  <graph edgedefault="directed">
+    <node id="3">
+      <data key="d6">79.0</data>
+      <data key="d7">96.0</data>
+      <data key="d8">root</data>
+    </node>
+    <node id="2">
+      <data key="d6">99.0</data>
+      <data key="d7">93.0</data>
+      <data key="d8">branch</data>
+    </node>
+    <node id="0">
+      <data key="d6">182.0</data>
+      <data key="d7">78.0</data>
+      <data key="d8">branch</data>
+    </node>
+    <node id="4">
+      <data key="d6">196.0</data>
+      <data key="d7">116.0</data>
+      <data key="d8">branch</data>
+    </node>
+    <node id="1">
+      <data key="d6">300.0</data>
+      <data key="d7">91.0</data>
+      <data key="d8">tip</data>
+    </node>
+    <node id="5">
+      <data key="d6">277.0</data>
+      <data key="d7">117.0</data>
+      <data key="d8">tip</data>
+    </node>
+    <node id="6">
+      <data key="d6">265.0</data>
+      <data key="d7">130.0</data>
+      <data key="d8">tip</data>
+    </node>
+    <node id="7">
+      <data key="d6">244.0</data>
+      <data key="d7">144.0</data>
+      <data key="d8">tip</data>
+    </node>
+    <edge source="3" target="2">
+      <data key="d9">12.041594578792296</data>
+      <data key="d10">[[95.0, 93.0], [83.0, 94.0]]</data>
+      <data key="d11">0.23668958304074136</data>
+    </edge>
+    <edge source="2" target="0">
+      <data key="d9">72.18700823518127</data>
+      <data key="d10">[[175.0, 78.0], [169.40328005285534, 78.59671994714466], [163.726434677992, 79.0], [157.91694693975253, 79.08305306024747], [152.452869355984, 80.0], [147.02319347616654, 81.0], [141.5935175963491, 82.0], [136.16384171653164, 83.0], [130.73416583671417, 84.0], [125.30448995689673, 85.0], [119.87481407707926, 86.0], [114.60765345666243, 87.39234654333757], [109.42967587981745, 89.0], [104.0, 90.0]]</data>
+      <data key="d12">1</data>
+      <data key="d11">1.418907833870723</data>
+    </edge>
+    <edge source="2" target="4">
+      <data key="d9">88.20340120253631</data>
+      <data key="d10">[[104.0, 95.0], [109.07605254228314, 96.07605254228314], [113.85921186575284, 97.85921186575284], [118.90845004787623, 99.0], [124.016004584626, 100.0], [129.12355912137576, 101.0], [134.23111365812554, 102.0], [139.3386681948753, 103.0], [144.44622273162508, 104.0], [149.55377726837486, 105.0], [154.66133180512466, 106.0], [159.76888634187443, 107.0], [164.8764408786242, 108.0], [169.98868304968087, 108.98868304968087], [175.09154995212378, 110.0], [180.14078813424717, 111.14078813424716], [184.89244546325023, 113.0], [190.0, 114.0]]</data>
+      <data key="d12">2</data>
+      <data key="d11">1.7337260540370538</data>
+    </edge>
+    <edge source="0" target="1">
+      <data key="d9">107.90727876665231</data>
+      <data key="d10">[[189.0, 76.0], [193.98844568156574, 75.0], [198.9768913631315, 74.0], [204.37955060707034, 74.0], [209.78220985100918, 74.0], [214.77065553257492, 73.0], [220.17331477651376, 73.0], [225.1617604580795, 74.0], [230.15020613964526, 75.0], [235.138651821211, 76.0], [240.12709750277676, 77.0], [245.37459458798193, 77.37459458798193], [250.3664244510651, 78.36642445106507], [255.5066481098471, 79.0], [260.49509379141284, 80.0], [265.4835394729786, 81.0], [270.4719851545443, 82.0], [275.4604308361101, 83.0], [280.317403629564, 84.317403629564], [285.0231086368685, 86.0], [290.01155431843426, 87.0], [295.0, 88.0]]</data>
+      <data key="d12">1</data>
+      <data key="d11">2.121025471437318</data>
+    </edge>
+    <edge source="0" target="5">
+      <data key="d9">88.92361763913121</data>
+      <data key="d10">[[186.0, 82.0], [190.57223070949163, 84.57223070949163], [195.2042992979658, 87.0], [200.00958534728835, 89.00958534728836], [204.8228121583047, 91.0], [209.63206858847417, 93.0], [214.44132501864362, 95.0], [219.25058144881308, 97.0], [224.3352049888138, 98.33520498881381], [229.28330787152507, 100.0], [234.09256430169452, 102.0], [239.31603429423708, 103.0], [244.12529072440654, 105.0], [249.24661106796617, 106.24661106796619], [254.15801714711853, 108.0], [258.967273577288, 110.0], [263.8419828528815, 111.84198285288146], [269.0, 113.0]]</data>
+      <data key="d12">2</data>
+      <data key="d11">1.747882628314763</data>
+    </edge>
+    <edge source="4" target="6">
+      <data key="d9">60.369996728923226</data>
+      <data key="d10">[[201.0, 115.0], [206.55002295742673, 115.55002295742675], [212.14148628964583, 116.0], [217.91933621565528, 116.0], [223.28297257929165, 117.0], [228.646608942928, 118.0], [234.00724452574698, 119.007244525747], [238.97148104554682, 120.97148104554684], [244.32330447146398, 122.0], [249.68694083510036, 123.0], [254.63636363636363, 125.0], [260.0, 126.0]]</data>
+      <data key="d12">1</data>
+      <data key="d11">1.186632655703715</data>
+    </edge>
+    <edge source="4" target="7">
+      <data key="d9">43.89410306071173</data>
+      <data key="d10">[[198.0, 120.0], [203.05805826175842, 122.0580582617584], [207.82322330470336, 124.82322330470336], [212.83210678118655, 127.0], [217.64644660940672, 129.64644660940672], [222.41161165235167, 132.41161165235167], [227.25, 135.0], [232.23483495705503, 137.23483495705503], [237.0, 140.0]]</data>
+      <data key="d12">2</data>
+      <data key="d11">0.8627824897613497</data>
+    </edge>
+    <data key="d0">0.019656</data>
+    <data key="d1">LILPB1447_c.png</data>
+    <data key="d2">polyline</data>
+    <data key="d3">lvm_tree</data>
+    <data key="d4">False</data>
+    <data key="d5">False</data>
+  </graph>
+</graphml>

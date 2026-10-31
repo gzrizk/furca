@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d12" for="edge" attr.name="child_index" attr.type="long" />
+  <key id="d11" for="edge" attr.name="length_mm" attr.type="double" />
+  <key id="d10" for="edge" attr.name="curve_points" attr.type="string" />
+  <key id="d9" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d8" for="node" attr.name="node_role" attr.type="string" />
+  <key id="d7" for="node" attr.name="y" attr.type="float" />
+  <key id="d6" for="node" attr.name="x" attr.type="float" />
+  <key id="d5" for="graph" attr.name="has_anomalies" attr.type="boolean" />
+  <key id="d4" for="graph" attr.name="has_xveins" attr.type="boolean" />
+  <key id="d3" for="graph" attr.name="graph_type" attr.type="string" />
+  <key id="d2" for="graph" attr.name="edge_length_method" attr.type="string" />
+  <key id="d1" for="graph" attr.name="filename" attr.type="string" />
+  <key id="d0" for="graph" attr.name="mm_per_pixel" attr.type="double" />
+  <graph edgedefault="directed">
+    <node id="5">
+      <data key="d6">62.0</data>
+      <data key="d7">87.0</data>
+      <data key="d8">root</data>
+    </node>
+    <node id="3">
+      <data key="d6">82.0</data>
+      <data key="d7">82.0</data>
+      <data key="d8">branch</data>
+    </node>
+    <node id="1">
+      <data key="d6">160.0</data>
+      <data key="d7">54.0</data>
+      <data key="d8">branch</data>
+    </node>
+    <node id="6">
+      <data key="d6">173.0</data>
+      <data key="d7">89.0</data>
+      <data key="d8">branch</data>
+    </node>
+    <node id="0">
+      <data key="d6">267.0</data>
+      <data key="d7">48.0</data>
+      <data key="d8">tip</data>
+    </node>
+    <node id="2">
+      <data key="d6">250.0</data>
+      <data key="d7">69.0</data>
+      <data key="d8">tip</data>
+    </node>
+    <node id="4">
+      <data key="d6">234.0</data>
+      <data key="d7">86.0</data>
+      <data key="d8">tip</data>
+    </node>
+    <node id="7">
+      <data key="d6">216.0</data>
+      <data key="d7">107.0</data>
+      <data key="d8">tip</data>
+    </node>
+    <edge source="5" target="3">
+      <data key="d9">11.40175425099138</data>
+      <data key="d10">[[77.0, 82.0], [66.0, 85.0]]</data>
+      <data key="d11">0.22411288155748654</data>
+    </edge>
+    <edge source="3" target="1">
+      <data key="d9">73.25401105240582</data>
+      <data key="d10">[[154.0, 55.0], [148.5693259106055, 55.430674089394486], [143.61029684837746, 57.0], [138.4154452725662, 58.0], [133.634807259128, 60.0], [128.43995568331673, 61.0], [123.24510410750547, 62.0], [118.46446609406729, 64.0], [113.6838280806291, 66.0], [108.63865182121103, 67.36134817878897], [103.79376416944343, 69.20623583055657], [99.2417697364893, 71.7582302635107], [94.56127602687637, 74.0], [89.84488765176758, 76.15511234823242], [85.0, 78.0]]</data>
+      <data key="d12">1</data>
+      <data key="d11">1.4398808412460886</data>
+    </edge>
+    <edge source="3" target="6">
+      <data key="d9">81.48335396409429</data>
+      <data key="d10">[[86.0, 83.0], [91.12385762508461, 84.0], [96.24771525016921, 85.0], [101.78578643762691, 85.0], [106.90964406271151, 86.0], [112.44771525016921, 86.0], [117.5715728752538, 87.0], [123.10964406271151, 87.0], [128.6477152501692, 87.0], [134.18578643762692, 87.0], [139.7238576250846, 87.0], [145.2619288125423, 87.0], [150.8, 87.0], [155.92385762508462, 88.0], [161.4619288125423, 88.0], [167.0, 88.0]]</data>
+      <data key="d12">2</data>
+      <data key="d11">1.6016368055182373</data>
+    </edge>
+    <edge source="1" target="0">
+      <data key="d9">97.02449688627055</data>
+      <data key="d10">[[261.0, 45.0], [255.56903559372884, 44.56903559372885], [250.19526214587563, 44.0], [245.0, 43.0], [239.39052429175126, 43.0], [234.19526214587563, 42.0], [229.0, 42.99999999999999], [223.3905242917513, 43.0], [218.19526214587563, 44.0], [212.58578643762692, 44.0], [207.39052429175126, 45.0], [202.1380711874577, 45.861928812542295], [196.58578643762692, 46.0], [191.39052429175126, 47.0], [186.19526214587563, 48.0], [181.0, 49.0], [175.56903559372884, 49.430964406271144], [170.19526214587563, 50.0], [165.0, 51.0]]</data>
+      <data key="d12">1</data>
+      <data key="d11">1.907113510796534</data>
+    </edge>
+    <edge source="1" target="2">
+      <data key="d9">77.99513518922069</data>
+      <data key="d10">[[166.0, 56.0], [171.02287638336716, 57.0], [176.04575276673435, 58.0], [181.3414213562373, 58.341421356237305], [186.50571909584178, 59.0], [191.52859547920895, 60.0], [196.55147186257614, 61.0], [201.9885618083164, 61.0], [207.01143819168357, 62.0], [212.03431457505076, 63.0], [217.05719095841795, 64.0], [222.4942809041582, 64.0], [227.51715728752538, 65.0], [232.54003367089257, 66.0], [237.6909307353786, 66.6909307353786], [243.0, 67.0]]</data>
+      <data key="d12">2</data>
+      <data key="d11">1.5330723772793218</data>
+    </edge>
+    <edge source="6" target="4">
+      <data key="d9">50.238752627808154</data>
+      <data key="d10">[[227.0, 85.0], [221.30637325698675, 85.0], [215.6127465139735, 85.0], [209.91911977096024, 85.0], [204.22549302794698, 85.0], [198.6689794755746, 84.66897947557459], [193.25245310429358, 84.0], [187.9730399236534, 85.0], [182.27941318064018, 85.0], [177.0, 86.0]]</data>
+      <data key="d12">1</data>
+      <data key="d11">0.987492921652197</data>
+    </edge>
+    <edge source="6" target="7">
+      <data key="d9">36.472840695557856</data>
+      <data key="d10">[[176.0, 92.0], [181.52022005725993, 94.52022005725993], [187.04044011451987, 97.04044011451988], [192.56066017177983, 99.56066017177982], [198.3737734478532, 101.37377344785321], [204.1868867239266, 103.1868867239266], [210.0, 105.0]]</data>
+      <data key="d12">2</data>
+      <data key="d11">0.7169101567118852</data>
+    </edge>
+    <data key="d0">0.019656</data>
+    <data key="d1">LILPB1447_b.png</data>
+    <data key="d2">polyline</data>
+    <data key="d3">lvm_tree</data>
+    <data key="d4">False</data>
+    <data key="d5">False</data>
+  </graph>
+</graphml>
