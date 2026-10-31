@@ -14,5 +14,14 @@ dependencies = [
   "pandas>=2.0",
 ]
 
+[project.optional-dependencies]
+extract = [
+  "scikit-image>=0.20",
+  "pillow>=10",
+  "matplotlib>=3.7",
+  "scipy>=1.10",
+  "PyYAML>=6.0",
+]
+
 [tool.setuptools]
 packages = ["furca"]
