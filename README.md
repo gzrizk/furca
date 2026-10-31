@@ -31,11 +31,19 @@ installing the package.
 Mask-to-tree extraction, ordination, visual quality control and the specimen
 images are not part of this repository yet.
 
-## Licence and reuse
+## Licence
 
-Code and data are shared for transparency and review only. Reuse and
-redistribution are not permitted until the accompanying manuscript is
-published. See `LICENSE`.
+Code and data are licensed under
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), see
+`LICENSE`.
+
+You may share the unmodified material for non-commercial purposes, with
+attribution. Modifications, derivative works and commercial use require
+written permission.
+
+The licence will be revised when the accompanying manuscript is published.
+
+Copyright (c) 2026 Gonzalo Rodriguez Rizk. See `NOTICE`.
 
 ## Author
 
