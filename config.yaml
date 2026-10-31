@@ -1,0 +1,32 @@
+# =============================================================
+# FURCA configuration
+# All paths are relative to the project root.
+# =============================================================
+
+paths:
+  # Annotated PNG masks, one file per lateral vein module
+  output_png_dir: "data/01_raw/digitized"
+  # Metadata table: filename_png, specimen_id, mm_per_pixel
+  metadata_csv: "data/02_interim/specimen_metadata.csv"
+  # Extracted trees
+  graphs_dir: "data/02_interim/graphs_graphml"
+  # Quality-control overlays
+  qc_dir: "qc_images"
+  # Per-LVM extraction summary
+  graph_summary_csv: "results/graph_summary.csv"
+
+graph_extraction:
+  # Maximum radius (px) for snapping skeleton endpoints to node centroids.
+  snap_distance_px: 30
+  # Minimum edge length in pixels; shorter edges are digitisation noise.
+  min_edge_px: 3
+  # Minimum node component area in pixels; smaller components are noise.
+  min_node_area_px: 4
+  # Edge length method: "polyline" (recommended) or "pixel_count" (legacy).
+  edge_length_method: "polyline"
+  # Minimum number of curve samples per edge.
+  min_curve_points: 2
+  # Spacing between curve samples along the skeleton (mm).
+  curve_sampling_step_mm: 0.1
+  # Draw the full skeleton behind the extracted graph in QC overlays.
+  qc_show_skeleton: false
